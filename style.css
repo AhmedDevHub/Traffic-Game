@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-top: 50px;
+  background-color: rgb(52, 37, 37);
+}
+.traffic-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.light {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: gray;
+}
+#red.active {
+  background-color: red;
+}
+#yellow.active {
+  background-color: yellow;
+}
+#green.active {
+  background-color: green;
+}
+.message {
+  font-size: 20px;
+  font-weight: bold;
+}
+.btns button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: red;
+  border-radius: 7px;
+  color: #fff;
+}
+.btns button:hover{
+    background-color: rgba(241, 76, 5, 0.812);
+}
+.btns button:first-child {
+  background-color: green;
+}
+.btns button:first-child:hover{
+    background-color: rgb(12, 228, 45);
+}
